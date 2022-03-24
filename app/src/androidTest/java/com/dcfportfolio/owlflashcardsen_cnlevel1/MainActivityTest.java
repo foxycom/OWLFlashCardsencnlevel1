@@ -16,6 +16,7 @@ import android.view.ViewParent;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -62,6 +63,7 @@ public class MainActivityTest {
     }
 
     @Test
+    @Ignore
     public void mainActivityNameDialogTest() {
 
         ViewInteraction editText = onView(
